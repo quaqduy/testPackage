@@ -1,18 +1,18 @@
-{
-  "name": "testfreecodecamp",
-  "version": "1.0.0",
-  "description": "firston",
-  "main": "index.js",
+ {
+  "name": "fcc-learn-npm-package-json",
+  "author": "foobar",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "main": "server.js",
   "scripts": {
-    "test": "no"
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.11.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/quaqduy"
-  },
-  "keywords": [
-    "kkk"
-  ],
-  "author": "quaqduy",
-  "license": "ISC"
+    "url": "https://idontknow/todo.git"
+  }
 }
